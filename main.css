@@ -11,6 +11,13 @@ header .row,
 footer .row {
   display: flex;
   align-items: center;
+  background-color: rgb(142,163,168);
+  padding: 20px;
+  color: #FFF;
+}
+
+header .row a {
+  color: #FFF;
 }
 
 header h1 {
