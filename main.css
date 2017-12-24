@@ -6,6 +6,11 @@
  * Pit Pony: rgb(98, 98, 102);
  */
 
+ html {
+  position: relative;
+min-height: 98%;  
+ }
+ 
 body {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -23,6 +28,15 @@ body {
 	
 	padding-top: 20px;
 	padding-bottom: 80px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 80%;  
+  
+  height: 32px;
+  background-color: #FFF;
 }
 
 footer .col-sm-8 {
