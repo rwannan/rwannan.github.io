@@ -12,12 +12,24 @@ min-height: 98%;
  }
  
 body {
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 
+.blankspace {
+	padding-top: 20px;
+}
+
 .jumbotron {
-	background-image: url('assets/img/missinaibi_rain2.jpg');
+	background: url('assets/img/missinaibi_rain2.jpg') stretch;
+/* or if you want no repeat just stretch 
+background:  url("pathtoimage/image.png") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	/*background-image: url('assets/img/missinaibi_rain2.jpg');
+	background-position: left 50% bottom -300px;
 	display: flex;
 	align-itmes: center;
 	background-size: cover;
@@ -27,7 +39,11 @@ body {
 	text-shadow: 0.25px 0.25px 0.25px #000000;
 	
 	padding-top: 20px;
-	padding-bottom: 80px;
+	padding-bottom: 80px;*/
+}
+
+.header {
+	background-color: #3D9970;
 }
 
 .footer {
