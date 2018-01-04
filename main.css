@@ -1,49 +1,51 @@
-/* COLOUR SCHEME
- * Sequential Black: rgb(2, 3, 4);
- * Ruby Tuesday: (84, 31, 20);
- * Reclining Nude II: rbg(147, 129, 114);
- * Nylon Stockings: rgb(204, 158, 97);
- * Pit Pony: rgb(98, 98, 102);
- */
 
- html {
+
+html {
   position: relative;
 min-height: 98%;  
  }
- 
-body {
-  padding-top: 0px;
-  padding-bottom: 20px;
+
+.header {
+	background-color: #3D9970;
 }
 
 .blankspace {
 	padding-top: 20px;
 }
 
+
+
 .jumbotron {
 	background: url('assets/img/missinaibi_rain2.jpg') stretch;
-/* or if you want no repeat just stretch 
-background:  url("pathtoimage/image.png") no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-	/*background-image: url('assets/img/missinaibi_rain2.jpg');
-	background-position: left 50% bottom -300px;
-	display: flex;
-	align-itmes: center;
-	background-size: cover;
-	justify-content: flex-end;
-	
-	color: #FFF;
-	text-shadow: 0.25px 0.25px 0.25px #000000;
-	
-	padding-top: 20px;
-	padding-bottom: 80px;*/
+	position: 
 }
 
-.header {
-	background-color: #3D9970;
+.container2 {
+    width:100%;
+    height:auto;
+    padding:1%;
+}
+
+.iconDetails {
+ margin-left:25%;
+ margin-right:2%;
+float:left; 
+height:256px;
+width:256px; 
+}
+
+.pic {
+	position: relative;
+	left: 5%;
+	top: 10%;
+	width: 100%;
+}
+
+.tex {
+	position: relative;
+	left: 25%;
+	top: 20%;
+	width: 100%;
 }
 
 .footer {
