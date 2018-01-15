@@ -1,3 +1,8 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
 html {
   position: relative;
   min-height: 100%;
@@ -30,16 +35,40 @@ body {
 	height: 256px;
 }
 
+.jumbotron h1
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron p
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family:'Roboto', sans-serif;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.medimages {
+	width: 300px;
+	height: 300px;
+	padding-bottom: 30px;
+}
+
 .pseudovcenter {
-	padding-top: 0.8em;
+	padding-top: 0.85em;
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 3em;
-  background-color: #DDDDDD;
+  background-color: #DCDCDC;
 }
 
 footer .col-sm-8 {
