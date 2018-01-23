@@ -53,26 +53,6 @@ h4, h5, p, a {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* carousel fullscreen */
-
-.carousel-fullscreen .carousel-inner .item {
-    height: 100vh; 
-    min-height: 600px; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-/* carousel fullscreen - vertically centered caption*/
-
-.carousel-fullscreen .carousel-caption {
-    top: 50%;  
-    bottom: auto;
-    -webkit-transform: translate(0, -50%); 
-    -ms-transform: translate(0, -50%); 
-    transform: translate(0, -50%);
-}
-
 .medimages {
 	width: 300px;
 	height: 300px;
